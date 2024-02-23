@@ -1,0 +1,62 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    scroll-behavior: smooth;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #ffffff00;
+    padding: 40px 0;
+}
+
+nav ul, footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+}
+
+nav ul li a, footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover, footer ul li a:hover {
+    color: gray;
+}
+
+/* Estilo do conteúdo */
+.content {
+    margin-top: 5rem;
+    margin-left: 9rem;
+    text-align: left;
+}
+
+/* Estilo da galeria */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 2rem;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilo das imagens da galeria */
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: red;
+    padding: 80px 0;
+}
