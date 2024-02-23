@@ -1,0 +1,62 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #ffffff00;
+    padding: 40px 0;
+}
+
+nav ul, footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li, footer ul li {
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+nav ul li a, footer ul li a {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.augusto-nav-button {
+    font-size: 25px;
+}
+
+.orggi-nav-button a {
+    padding: 8px 14px;
+    border-radius: 40px;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.orggi-nav-button-selected a {
+    padding: 8px 14px;
+    border-radius: 40px;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.orggi-nav-button a:hover {
+    color: #FAFAFA;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
