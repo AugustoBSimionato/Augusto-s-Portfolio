@@ -11,6 +11,10 @@ body {
 }
 
 /* Estilo do menu de navegação */
+#menu-mobile {
+    display: none;
+}
+
 nav {
     background-color: #ffffff00;
     padding: 40px 0;
@@ -72,6 +76,10 @@ nav ul li a, footer ul li a {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.content-mobile {
+    display: none;
+}
+
 .content p, .content-column1, .content-column2, .gallery, .feature5-img {
     animation: appear 1s ease-in-out;
 }
@@ -116,6 +124,10 @@ nav ul li a, footer ul li a {
     padding: 20px;
 }
 
+.gallery-mobile {
+    display: none;
+}
+
 /* Estilo das imagens da galeria */
 .gallery img {
     max-width: 100%;
@@ -131,6 +143,10 @@ nav ul li a, footer ul li a {
 /* Estilo do footer */
 footer {
     padding: 100px 0;
+}
+
+.footer-mobile {
+    display: none;
 }
 
 .augusto {
@@ -154,4 +170,147 @@ footer {
     color: #FAFAFA;
     background-color: black;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Responsividade */
+/* Smartphones */
+@media (max-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    #menu-mobile {
+        display: grid;
+        text-align: center;
+        background-color: #ffffff00;
+        padding: 40px 0;
+        list-style-type: none;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .menu-title-mobile {
+        padding-bottom: 1.5rem;
+    }
+
+    .augusto-nav-button-mobile {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .orggi-nav-button-mobile-orggi {
+        padding: 8px 14px;
+        border-radius: 40px;
+        background-color: black;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+    }
+
+    .orggi-nav-button-mobile {
+        padding: 8px 14px;
+        border-radius: 40px;
+        background-color: white;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+    }
+
+    .orggi-nav-button-mobile:hover {
+        color: #FAFAFA;
+        background-color: black;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    /* Estilo do content */
+    .content {
+        display: none;
+    }
+
+    .content-mobile {
+        display: flow-root;
+        text-align: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .orggi-icon-mobile {
+        height: 130px;
+        width: auto;
+        padding-bottom: 10px;
+    }
+
+    .orggi-title-mobile {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .orggi-description-mobile {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+
+    .orggi-download-mobile img {
+        height: 50px;
+        width: auto;
+    }
+
+    /* Estilo da gallery */
+    .gallery {
+        display: none;
+    }
+    
+    .gallery-mobile {
+        display: flow-root;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .gallery-mobile-img {
+        padding-bottom: 20px;
+    }
+
+    /* Estilo da feature5 */
+    .feature5-img {
+        display: none;
+    }
+
+    /* Estilo do footer */
+    footer {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: inline-block;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .footer-links-mobile-orggi {
+        padding: 8px 14px;
+        border-radius: 40px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .footer-links-mobile {
+        padding: 8px 14px;
+        border-radius: 40px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .footer-links-mobile:hover {
+        color: #FAFAFA;
+        background-color: black;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
 }
