@@ -98,10 +98,28 @@ nav ul li a, footer ul li a {
     margin-left: 6rem;
 }
 
+.content-column1 h3 {
+    margin-bottom: 6px;
+}
+
 .content-column1 img {
     padding-top: 3rem;
     width: auto;
     height: 16vh;
+}
+
+.content-column1 a {
+    text-decoration: none;
+}
+
+.content-soon {
+    color: black;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.content-download {
+    display: none;
 }
 
 .free-span {
@@ -236,6 +254,10 @@ footer {
         font-family: "Poppins", sans-serif;
     }
 
+    .content-mobile a {
+        text-decoration: none;
+    }
+
     .orggi-icon-mobile {
         height: 130px;
         width: auto;
@@ -252,9 +274,14 @@ footer {
         padding-bottom: 25px;
     }
 
-    .orggi-download-mobile img {
+    .orggi-download-mobile {
+        display: none;
         height: 50px;
         width: auto;
+    }
+
+    .content-soon-mobile {
+        color: black;
     }
 
     /* Estilo da gallery */
