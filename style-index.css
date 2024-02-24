@@ -240,25 +240,4 @@ footer {
     footer {
         display: none;
     }
-
-    .footer-mobile {
-        display: inline-block;
-        font-family: "Poppins", sans-serif;
-    }
-
-    .footer-links-mobile {
-        padding: 8px 14px;
-        border-radius: 40px;
-        background-color: white;
-        text-decoration: none;
-        color: black;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-    }
-
-    .footer-links-mobile:hover {
-        color: #FAFAFA;
-        background-color: black;
-        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    }
 }
