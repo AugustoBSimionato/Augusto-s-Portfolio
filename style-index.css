@@ -56,6 +56,10 @@ body {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+#menu ul li a:hover {
+    color: #FAFAFA;
+}
+
 /* Estilo do conteúdo */
 .content {
     margin: 5rem 30rem 10rem 15rem;
