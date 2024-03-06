@@ -238,8 +238,18 @@ footer {
     }
 
     .content-mobile {
+        animation: appear 1s ease-in-out;
         display: contents;
         font-family: "Poppins", sans-serif;
+    }
+
+    @keyframes appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
     }
     
     .content-1-mobile {
