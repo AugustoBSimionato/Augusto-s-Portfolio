@@ -74,7 +74,21 @@ span {
     font-weight: 600;
 }
 
+.content-mobile {
+    display: none;
+}
+
+@keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
 .content {
+    animation: appear 1s ease-in-out;
     font-family: "Poppins", sans-serif;
     margin: 2rem 8rem;
     align-content: center;
@@ -219,7 +233,77 @@ footer {
     }
 
     /* Estilo do content */
+    .content {
+        display: none;
+    }
+
+    .content-mobile {
+        display: contents;
+        font-family: "Poppins", sans-serif;
+    }
     
+    .content-1-mobile {
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .content-1-mobile h1 {
+        margin-bottom: 2rem;
+    }
+    
+    .content-1-mobile p {
+        margin-bottom: 0.8rem;
+    }
+    
+    .content-2-mobile {
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .content-2-mobile h2 {
+        margin-bottom: 2rem;
+    }
+    
+    .content-2-mobile p {
+        margin-bottom: 0.8rem;
+    }
+    
+    .content-3-mobile {
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .content-3-mobile h3 {
+        margin-bottom: 1.5rem;
+    }
+    
+    .content-3-mobile p {
+        margin-bottom: 1rem;
+    }
+    
+    .content-4-mobile {
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .content-4-mobile h2 {
+        margin-bottom: 2rem;
+    }
+    
+    .content-4-mobile p {
+        margin-bottom: 0.8rem;
+    }
+    
+    .content-4-mobile a {
+        color: black;
+    }
 
     /* Estilo do footer */
     footer {

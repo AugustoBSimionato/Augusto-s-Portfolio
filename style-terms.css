@@ -65,6 +65,76 @@ nav ul li a, footer ul li a {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+/* Estilo do content */
+hr.solid {
+    border-top: 1px solid #c3c3c3;
+}
+
+span {
+    font-weight: 600;
+}
+
+.content {
+    font-family: "Poppins", sans-serif;
+    margin: 2rem 8rem;
+    align-content: center;
+}
+
+.content-1 {
+    margin-bottom: 2rem;
+}
+
+.content-1 h1 {
+    margin-bottom: 2rem;
+}
+
+.content-1 p {
+    margin-bottom: 0.8rem;
+}
+
+.content-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-2 h2 {
+    margin-bottom: 2rem;
+}
+
+.content-2 p {
+    margin-bottom: 0.8rem;
+}
+
+.content-3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-3 h3 {
+    margin-bottom: 1.5rem;
+}
+
+.content-3 p {
+    margin-bottom: 1rem;
+}
+
+.content-4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-4 h2 {
+    margin-bottom: 2rem;
+}
+
+.content-4 p {
+    margin-bottom: 0.8rem;
+}
+
+.content-4 a {
+    color: black;
+}
+
 /* Estilo do footer */
 footer {
     padding: 100px 0;
