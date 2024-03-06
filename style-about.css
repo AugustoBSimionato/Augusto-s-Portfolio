@@ -66,6 +66,10 @@ nav ul li a, footer ul li a {
 }
 
 /* Estilo do conteúdo */
+.content-mobile, .content-2-mobile {
+    display: none;
+}
+
 .content {
     margin-top: 3rem;
     text-align: center;
@@ -232,7 +236,26 @@ footer {
     }
 
     /* Estilo do content */
-    
+    .content, .content-2 {
+        display: none;
+    }
+
+    .content-mobile {
+        font-family: "Poppins", sans-serif;
+        align-items: center;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: contents;
+    }
+
+    .content-mobile img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 200px;
+        width: auto;
+        margin-left: 110px;
+    }
 
     /* Estilo do footer */
     footer {
