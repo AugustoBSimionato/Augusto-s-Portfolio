@@ -112,16 +112,6 @@ nav ul li a, footer ul li a {
     text-decoration: none;
 }
 
-.content-soon {
-    color: black;
-    margin-top: 20px;
-    font-size: 24px;
-}
-
-.content-download {
-    display: none;
-}
-
 .free-span {
     font-weight: 600;
     font-style: italic;
@@ -275,13 +265,8 @@ footer {
     }
 
     .orggi-download-mobile {
-        display: none;
         height: 50px;
         width: auto;
-    }
-
-    .content-soon-mobile {
-        color: black;
     }
 
     /* Estilo da gallery */
