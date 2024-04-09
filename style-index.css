@@ -48,6 +48,7 @@ body {
     text-decoration: none;
     display: inline-block;
     color: black;
+    border: 1px solid #e2e2e2;
 }
 
 .orggi-nav-button a:hover {
@@ -135,6 +136,7 @@ footer {
     text-decoration: none;
     display: inline-block;
     color: black;
+    border: 1px solid #e2e2e2;
 }
 
 .footer-links a:hover {
@@ -177,6 +179,7 @@ footer {
         text-decoration: none;
         display: inline-block;
         color: black;
+        border: 1px solid #e2e2e2;
     }
 
     .orggi-nav-button-mobile:hover {
