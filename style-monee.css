@@ -121,6 +121,8 @@ nav ul li a, footer ul li a {
 .content-column2 img {
     width: auto;
     height: 35vh;
+    border-radius: 40px;
+    border: 1px solid #e2e2e2;
 }
 
 /* Estilo do footer */
@@ -220,6 +222,8 @@ footer {
         height: 130px;
         width: auto;
         margin-bottom: 10px;
+        border-radius: 25px;
+        border: 1px solid #e2e2e2;
     }
 
     .orggi-title-mobile {
